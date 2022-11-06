@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import Options from '../routes/components/options'
 import AccoPopUp from '../routes/components/PopupAccount'
 import OpinPopUp from '../routes/components/PopupOpi'
@@ -152,6 +152,7 @@ const MainMenuMock = () => {
       setpopupActiveAccount(popupOff)
       setpopupActiveSetting(popupOff)
       setpopupActiveOpinion(popupOff)
+      settableroGrid(tableroGrid)
     }
   })
 

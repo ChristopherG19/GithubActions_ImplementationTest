@@ -1,6 +1,5 @@
-import React, { useState, useContext } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
-import { ThemeContext } from '../hooks/ThemeProvider'
 import ThemeCard from './components/ThemeCard'
 import Logo from '../images/logo-negative.png'
 import themes from '../utils/purchasedThemesGetter'
