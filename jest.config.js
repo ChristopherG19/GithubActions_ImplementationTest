@@ -6,4 +6,5 @@ module.exports = {
   },
   testEnvironment: 'jsdom',
   transformIgnorePatterns: ['/node_modules/', '/node_modules/rehype', '<rootDir>/node_modules/'],
+  verbose: true,
 }
