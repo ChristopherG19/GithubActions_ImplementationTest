@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --main-color: #b50013;
+  --secondary-color: #113743;
+  --accent-color-black: #181a1b;
+  --accent-color-white: #e4e3db;
+  --titles-important: 'Poppins', sans-serif;
+  --subtitles: 'Merriweather Sans', sans-serif;
+  --text: 'Hind Madurai', sans-serif;
+}
+
+.notebook-container {
+  background-size: auto;
+}
+
+.notebook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--accent-color-white);
+  border-radius: 10px;
+  height: 150px;
+  margin: 5px;
+}
+
+.notebook:hover {
+  opacity: 0.8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-5px);
+}
+
+h4 {
+  font-size: 3vh;
+  font-family: var(--titles-important);
+  color: var(--accent-color-white);
+}
+
+p {
+  font-size: 2vh;
+  font-family: var(--subtitles);
+  color: var(--accent-color-white);
+}
+
+.add-notebook {
+  background-color: rgb(150, 150, 150);
+}
+
+.add-notebook:hover {
+  background-color: rgba(150, 150, 150, 0.8);
+}
+
+.add-notebook-button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  font-size: 3vh;
+  font-family: var(--titles-important);
+  color: var(--accent-color-white);
+  font-weight: bolder;
+}
+
+.add-popup-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 10px;
+}
