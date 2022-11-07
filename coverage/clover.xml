@@ -1,84 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665279368247" clover="3.2.0">
-  <project timestamp="1665279368247" name="All files">
-    <metrics statements="45" coveredstatements="39" conditionals="14" coveredconditionals="10" methods="11" coveredmethods="11" elements="70" coveredelements="60" complexity="0" loc="45" ncloc="45" packages="2" files="9" classes="9"/>
-    <package name="firebase">
-      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="firebaseConfig.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\firebase\firebaseConfig.jsx">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="utils">
-      <metrics statements="42" coveredstatements="36" conditionals="14" coveredconditionals="10" methods="11" coveredmethods="11"/>
-      <file name="changeGrid.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\changeGrid.jsx">
-        <metrics statements="9" coveredstatements="9" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="2" type="stmt"/>
-      </file>
-      <file name="checkEmailValidity.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\checkEmailValidity.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
-      </file>
-      <file name="checkPasswordValidity.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\checkPasswordValidity.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-      </file>
-      <file name="getCurrentDate.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\getCurrentDate.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="1" type="stmt"/>
-      </file>
-      <file name="getNotebookCount.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\getNotebookCount.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="9" type="stmt"/>
-      </file>
-      <file name="loginMethods.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\loginMethods.jsx">
-        <metrics statements="22" coveredstatements="16" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="37" count="0" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-      </file>
-      <file name="popupsExit.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\popupsExit.jsx">
-        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="2" type="stmt"/>
-        <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-      </file>
-      <file name="validatePassword.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\validatePassword.jsx">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="2" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1667791712844" clover="3.2.0">
+  <project timestamp="1667791712844" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="13" coveredmethods="13" elements="49" coveredelements="49" complexity="0" loc="28" ncloc="28" packages="1" files="11" classes="11"/>
+    <file name="addNotebookSection.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\addNotebookSection.jsx">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="changeGrid.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\changeGrid.jsx">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="checkEmailValidity.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\checkEmailValidity.jsx">
+      <metrics statements="1" coveredstatements="1" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="checkPasswordValidity.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\checkPasswordValidity.jsx">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+    </file>
+    <file name="getCurrentDate.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\getCurrentDate.jsx">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+    </file>
+    <file name="getNotebookCount.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\getNotebookCount.jsx">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="9" type="stmt"/>
+    </file>
+    <file name="getSpecifiedUserData.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\getSpecifiedUserData.jsx">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="12" type="stmt"/>
+      <line num="3" count="4" type="stmt"/>
+    </file>
+    <file name="popupsExit.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\popupsExit.jsx">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="2" type="stmt"/>
+    </file>
+    <file name="removeNotebookSection.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\removeNotebookSection.jsx">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="2" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
+    <file name="setNotebookDisplay.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\setNotebookDisplay.jsx">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+    </file>
+    <file name="validatePassword.jsx" path="C:\Users\emapi\Escritorio\6to. Semestre UVG 2022\Ingeniería de software 2\kodonote\src\utils\validatePassword.jsx">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+    </file>
   </project>
 </coverage>
