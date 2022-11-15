@@ -7,5 +7,23 @@ describe('The Home Page', () => {
 
       cy.get('.form-btn-is').click()
 
+      cy.get('#0').click()
+
+      cy.get('.notes-area').type('Esta es una prueba de sistema')
+      cy.get('.boton').contains('Guardar cuaderno').click()
+
+      cy.get('.alert-accept-button').click()
+
+      cy.get('.boton').contains('Regresar').click()
+      cy.get('#0').click()
+
+      cy.get('.notes-area').type(', continuando la prueba')
+      cy.get('.boton').contains('Guardar cuaderno').click()
+
+      cy.get('.alert-accept-button').click()
+
+      cy.get('.boton').contains('Regresar').click()
+      cy.get('#0').click()
+      cy.get('.boton').contains('Regresar').click()
   })
 })
