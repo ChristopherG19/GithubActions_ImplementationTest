@@ -1,6 +1,6 @@
 describe('The Home Page', () => {
   it('successfully loads', () => {
-      cy.visit('http://localhost:3000/login', { timeout: 60000 }) // change URL to match your dev URL
+      cy.visit('http://localhost:3000/login', { responseTimeout: 1200000 }) // change URL to match your dev URL
       
       cy.get('#Email').type('christopherg2808@gmail.com')
       cy.get('#password').type('prueba1234')
